@@ -13,9 +13,11 @@ For a client project I needed a simple way to read a ics file from a google cale
 Please find an example implementation of the ical parser in the **index.php** file.
 
 1. Include the ical classes into your project
+
 To use the ical parser you need to include the files **ical/ical.php** and **ical/icalEvent.php** into your project.
 
 2. Create a iCal instance
+
 Create a new instance of the iCal class and pass the URL to the ics file into the constructor.
 
 ```
@@ -23,6 +25,7 @@ $calendar = new iCal("https://calendar.google.com/calendar/ical/de.german%23holi
 ```
 
 3. Get events
+
 You can get either all future events or all currently active events as follows:
 
 **Future events**
