@@ -10,11 +10,11 @@ For a client project I needed a simple way to read a ics file from a google cale
 
 ## How to use
 
-Please find an example implementation of the ical parser in the **index.php** file.
+Please find an example implementation of the ical parser in the **[index.php](index.php)** file.
 
 1. Include the ical classes into your project
 
-To use the ical parser you need to include the files **ical/ical.php** and **ical/icalEvent.php** into your project.
+To use the ical parser you need to include the files **[ical/ical.php](ical/ical.php)** and **[ical/icalEvent.php](ical/icalEvent.php)** into your project.
 
 2. Create a iCal instance
 
